@@ -1,0 +1,9 @@
+package com.testingEntryEmployees.service;
+
+import com.testingEntryEmployees.dto.CountryData;
+
+import java.util.List;
+
+public interface CountryService {
+    List<CountryData> getAllCountries();
+}

@@ -1,0 +1,13 @@
+package com.testingEntryEmployees.service;
+
+import com.testingEntryEmployees.dto.EmployeeData;
+
+import java.util.List;
+
+public interface EmployeeService {
+
+    CustomerData saveEmployee(EmployeeData employee);
+    boolean deleteEmployee(final Long employeeId);
+    List<EmployeeData> getAllEmployees();
+    EmployeeData getEmployeeById(final Long employeeId);
+}
